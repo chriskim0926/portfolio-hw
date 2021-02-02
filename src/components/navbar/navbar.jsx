@@ -7,7 +7,7 @@ const navbar = () => {
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-    <Link to="/" className="brand-logo">
+    <Link to="/about" className="brand-logo">
           Chris Kim
         </Link>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
