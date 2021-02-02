@@ -14,10 +14,13 @@ const navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><Link class="nav-link js-scroll-trigger" href="/about">About</Link></li>
+                {/* <li class="nav-item"><Link class="nav-link js-scroll-trigger" href="/about">About</Link></li>
                 <li class="nav-item"><Link class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</Link></li>
-                <li class="nav-item"><Link class="nav-link js-scroll-trigger" href="/contact">Contact</Link></li>
-            </ul>
+                <li class="nav-item"><Link class="nav-link js-scroll-trigger" href="/contact">Contact</Link></li> */}
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact">Contact</a></li>
+         </ul>
         </div>
     </div>
 </nav>
