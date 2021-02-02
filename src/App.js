@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Wrapper from "./components/wrapper/wrapper"
-import { BrowserRouter as BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/navbar/navbar"
 import About from "./pages/about"
 import Portfolio from "./pages/portfolio"
@@ -9,7 +9,7 @@ import Contact from "./pages/contact"
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Nav />
       <Wrapper>
         <Switch>
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           </Switch>
       </Wrapper>
-    </BrowserRouter>
+    </Router>
   );
 }
 

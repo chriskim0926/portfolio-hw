@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from "react-router-dom";
 
 const navbar = () => {
     return (
@@ -12,7 +13,13 @@ const navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about">About</a></li>
+                <li class="nav-item"><NavLink
+              to="/about"
+              activeStyle={{ backgroundColor: "rgba(0,0,0,0.1)" }}
+            >
+              About
+            </NavLink></li>
+                
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact">Contact</a></li>
             </ul>
