@@ -6,6 +6,7 @@ import Nav from "./components/navbar/navbar"
 import About from "./pages/about"
 import Portfolio from "./pages/portfolio"
 import Contact from "./pages/contact"
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
