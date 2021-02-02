@@ -17,8 +17,6 @@ const navbar = () => {
                 <li class="nav-item"><NavLink class="nav-link js-scroll-trigger" href="/about">About</NavLink></li>
                 <li class="nav-item"><NavLink class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</NavLink></li>
                 <li class="nav-item"><NavLink class="nav-link js-scroll-trigger" href="/contact">Contact</NavLink></li>
-            <li>
-          </li>
             </ul>
         </div>
     </div>
