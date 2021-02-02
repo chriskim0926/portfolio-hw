@@ -20,9 +20,16 @@ const navbar = () => {
                 {/* <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact">Contact</a></li> */}
-                <li class="nav-item"> <NavLink exact to="/about" className="nav-link" activeClassName= "nav-link active"> About </NavLink></li>
+                {/* <li class="nav-item"> <NavLink exact to="/about" className="nav-link" activeClassName= "nav-link active"> About </NavLink></li>
                 <li class="nav-item"> <NavLink exact to="/portfolio" className="nav-link" activeClassName= "nav-link active"> Portfolio </NavLink></li>
-                <li class="nav-item"> <NavLink exact to="/contact" className="nav-link" activeClassName= "nav-link active"> Contact </NavLink></li>
+                <li class="nav-item"> <NavLink exact to="/contact" className="nav-link" activeClassName= "nav-link active"> Contact </NavLink></li> */}
+                <li>
+            <NavLink
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
 
          </ul>
         </div>
