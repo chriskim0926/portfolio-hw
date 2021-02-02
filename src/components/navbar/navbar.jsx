@@ -30,6 +30,20 @@ const navbar = () => {
               About
             </NavLink>
           </li>
+          <li className ="nav-item">
+            <NavLink
+              to="/portfolio" className="nav-link js-scroll-trigger"
+            >
+              Portfolio
+            </NavLink>
+          </li>
+          <li className ="nav-item">
+            <NavLink
+              to="/contact" className="nav-link js-scroll-trigger"
+            >
+              Contact
+            </NavLink>
+          </li>
 
          </ul>
         </div>
