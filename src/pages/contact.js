@@ -2,6 +2,7 @@ import React from 'react';
 
 const contact = () => {
     return (
+      <div className = "container" id = "bottom" >
         <section id = "contact" className="contact-section bg-black">
             <div className="container">
                 <div className="row">
@@ -42,6 +43,7 @@ const contact = () => {
                 </div>
             </div>
         </section>
+        </div>  
     );
 };
 
