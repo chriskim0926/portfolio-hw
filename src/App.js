@@ -9,7 +9,7 @@ import Contact from "./pages/contact"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Nav />
       <Wrapper>
         <Switch>
