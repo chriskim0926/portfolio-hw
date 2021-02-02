@@ -14,7 +14,7 @@ function App() {
       <Wrapper>
         <Switch>
           <Route exact path="/" component={About} />
-          <Link exact path="/About" component={About} />
+          <Route><Link exact path="/About" component={About} /></Route>
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
           </Switch>
